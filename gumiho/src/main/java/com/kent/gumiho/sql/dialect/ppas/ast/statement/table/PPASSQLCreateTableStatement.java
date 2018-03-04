@@ -8,9 +8,9 @@ import com.kent.gumiho.sql.dialect.oracle.ast.statement.OracleSQLCreateStatement
 /**
  * @author kongtong.ouyang on 2018/1/23.
  */
-public class OracleSQLCreateTableStatement extends SQLAbstractStatement implements OracleSQLCreateStatement {
+public class PPASSQLCreateTableStatement extends SQLAbstractStatement implements OracleSQLCreateStatement {
 
-    public OracleSQLCreateTableStatement(DBType dbType) {
+    public PPASSQLCreateTableStatement(DBType dbType) {
         super(dbType);
     }
 }
