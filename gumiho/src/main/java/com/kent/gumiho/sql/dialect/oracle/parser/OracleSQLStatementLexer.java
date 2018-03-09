@@ -1,4 +1,4 @@
-// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/dialect/oracle/OracleSQLStatementLexer.g4 by ANTLR 4.7
+// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/sql/dialect/oracle/OracleSQLStatementLexer.g4 by ANTLR 4.7
 package com.kent.gumiho.sql.dialect.oracle.parser;
 import org.antlr.v4.runtime.Lexer;
 import org.antlr.v4.runtime.CharStream;

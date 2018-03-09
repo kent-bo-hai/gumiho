@@ -1,4 +1,4 @@
-// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
+// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/sql/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
 package com.kent.gumiho.sql.dialect.oracle.parser;
 import org.antlr.v4.runtime.tree.ParseTreeVisitor;
 
@@ -11,23 +11,17 @@ import org.antlr.v4.runtime.tree.ParseTreeVisitor;
  */
 public interface OracleSQLStatementParserVisitor<T> extends ParseTreeVisitor<T> {
 	/**
+	 * Visit a parse tree produced by {@link OracleSQLStatementParser#parse}.
+	 * @param ctx the parse tree
+	 * @return the visitor result
+	 */
+	T visitParse(OracleSQLStatementParser.ParseContext ctx);
+	/**
 	 * Visit a parse tree produced by {@link OracleSQLStatementParser#swallow_to_semi}.
 	 * @param ctx the parse tree
 	 * @return the visitor result
 	 */
 	T visitSwallow_to_semi(OracleSQLStatementParser.Swallow_to_semiContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link OracleSQLStatementParser#compilation_unit}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitCompilation_unit(OracleSQLStatementParser.Compilation_unitContext ctx);
-	/**
-	 * Visit a parse tree produced by {@link OracleSQLStatementParser#sql_script}.
-	 * @param ctx the parse tree
-	 * @return the visitor result
-	 */
-	T visitSql_script(OracleSQLStatementParser.Sql_scriptContext ctx);
 	/**
 	 * Visit a parse tree produced by {@link OracleSQLStatementParser#unit_statement}.
 	 * @param ctx the parse tree

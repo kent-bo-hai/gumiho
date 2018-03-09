@@ -5,10 +5,13 @@ package com.kent.gumiho.sql.basic;
  */
 public enum DBType {
 
+    SQL,
     ORACLE,
     MYSQL,
+    MSSQL,
     PPAS,
     POSTGRESQL,
+    SQLITE,
     DRDS,
     ADS,
 

@@ -1,4 +1,4 @@
-// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
+// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/sql/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
 package com.kent.gumiho.sql.dialect.oracle.parser;
 
 import org.antlr.v4.runtime.ParserRuleContext;
@@ -16,6 +16,18 @@ public class OracleSQLStatementParserBaseListener implements OracleSQLStatementP
 	 *
 	 * <p>The default implementation does nothing.</p>
 	 */
+	@Override public void enterParse(OracleSQLStatementParser.ParseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
+	@Override public void exitParse(OracleSQLStatementParser.ParseContext ctx) { }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation does nothing.</p>
+	 */
 	@Override public void enterSwallow_to_semi(OracleSQLStatementParser.Swallow_to_semiContext ctx) { }
 	/**
 	 * {@inheritDoc}
@@ -23,30 +35,6 @@ public class OracleSQLStatementParserBaseListener implements OracleSQLStatementP
 	 * <p>The default implementation does nothing.</p>
 	 */
 	@Override public void exitSwallow_to_semi(OracleSQLStatementParser.Swallow_to_semiContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterCompilation_unit(OracleSQLStatementParser.Compilation_unitContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitCompilation_unit(OracleSQLStatementParser.Compilation_unitContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void enterSql_script(OracleSQLStatementParser.Sql_scriptContext ctx) { }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation does nothing.</p>
-	 */
-	@Override public void exitSql_script(OracleSQLStatementParser.Sql_scriptContext ctx) { }
 	/**
 	 * {@inheritDoc}
 	 *

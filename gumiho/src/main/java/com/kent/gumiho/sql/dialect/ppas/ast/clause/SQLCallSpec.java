@@ -1,6 +1,6 @@
 package com.kent.gumiho.sql.dialect.ppas.ast.clause;
 
-import com.kent.gumiho.sql.basic.ast.SQLAbstractObject;
+import com.kent.gumiho.sql.basic.ast.AbstractSQLObject;
 import com.kent.gumiho.sql.basic.visitor.SQLVisitor;
 import lombok.Getter;
 import lombok.Setter;
@@ -10,7 +10,7 @@ import lombok.Setter;
  */
 @Setter
 @Getter
-public class SQLCallSpec extends SQLAbstractObject {
+public class SQLCallSpec extends AbstractSQLObject {
 
     private SQLDeclaration declaration;
 

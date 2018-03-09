@@ -12,4 +12,5 @@ public interface SQLStatement extends SQLObject {
 
     @Override
     SQLStatement clone() throws CloneNotSupportedException;
+
 }

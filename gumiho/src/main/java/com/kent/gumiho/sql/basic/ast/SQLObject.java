@@ -1,13 +1,13 @@
 package com.kent.gumiho.sql.basic.ast;
 
 
-import com.kent.gumiho.sql.basic.visitor.SQLVisitor;
+import com.kent.gumiho.sql.basic.visitor.SQLASTVisitor;
 
 import java.util.Map;
 
 public interface SQLObject extends Cloneable {
 
-    void accept(SQLVisitor visitor);
+    void accept(SQLASTVisitor visitor);
 
     SQLObject clone() throws CloneNotSupportedException;
 
@@ -23,6 +23,6 @@ public interface SQLObject extends Cloneable {
 
     Map<String, Object> getAttributesDirect();
 
-    void output(StringBuffer buf);
+    void output(StringBuilder out);
 
 }

@@ -1,5 +1,9 @@
 package com.kent.gumiho.sql.util;
 
+import com.kent.gumiho.sql.basic.DBType;
+import com.kent.gumiho.sql.translate.TransformConfig;
+import com.kent.gumiho.sql.translate.result.TransformResult;
+
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.SQLException;
@@ -53,5 +57,33 @@ public final class MySQLUtils {
         }
 
         return tables;
+    }
+
+    public static String format(String sql) {
+        return SQLUtils.format(sql, DBType.MYSQL);
+    }
+
+    public static TransformResult toOracle(String sql) {
+        return null;
+    }
+
+    public static TransformResult toOracle(String sql, TransformConfig config) {
+        return null;
+    }
+
+    public static TransformResult toPostgreSQL(String sql) {
+        return null;
+    }
+
+    public static TransformResult toPostgreSQL(String sql, TransformConfig config) {
+        return null;
+    }
+
+    public static TransformResult toPPAS(String sql) {
+        return null;
+    }
+
+    public static TransformResult toPPAS(String sql, TransformConfig config) {
+        return null;
     }
 }

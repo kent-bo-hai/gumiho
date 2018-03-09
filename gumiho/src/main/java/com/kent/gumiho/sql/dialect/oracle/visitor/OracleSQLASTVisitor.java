@@ -7,7 +7,6 @@ import com.kent.gumiho.sql.dialect.oracle.parser.OracleSQLStatementParserBaseVis
 /**
  * @author kongtong.ouyang on 2018/2/8.
  */
-public class OracleSQLASTVisitor extends OracleSQLStatementParserBaseVisitor<OracleSQLStatement> implements SQLASTVisitor {
+public interface OracleSQLASTVisitor extends SQLASTVisitor {
 
-    
 }

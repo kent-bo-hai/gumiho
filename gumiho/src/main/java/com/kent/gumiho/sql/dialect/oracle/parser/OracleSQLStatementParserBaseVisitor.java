@@ -1,4 +1,4 @@
-// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
+// Generated from /Users/kent/IdeaProjects/github/gumiho/gumiho/src/main/resources/grammars/sql/dialect/oracle/OracleSQLStatementParser.g4 by ANTLR 4.7
 package com.kent.gumiho.sql.dialect.oracle.parser;
 import org.antlr.v4.runtime.tree.AbstractParseTreeVisitor;
 
@@ -17,21 +17,14 @@ public class OracleSQLStatementParserBaseVisitor<T> extends AbstractParseTreeVis
 	 * <p>The default implementation returns the result of calling
 	 * {@link #visitChildren} on {@code ctx}.</p>
 	 */
+	@Override public T visitParse(OracleSQLStatementParser.ParseContext ctx) { return visitChildren(ctx); }
+	/**
+	 * {@inheritDoc}
+	 *
+	 * <p>The default implementation returns the result of calling
+	 * {@link #visitChildren} on {@code ctx}.</p>
+	 */
 	@Override public T visitSwallow_to_semi(OracleSQLStatementParser.Swallow_to_semiContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitCompilation_unit(OracleSQLStatementParser.Compilation_unitContext ctx) { return visitChildren(ctx); }
-	/**
-	 * {@inheritDoc}
-	 *
-	 * <p>The default implementation returns the result of calling
-	 * {@link #visitChildren} on {@code ctx}.</p>
-	 */
-	@Override public T visitSql_script(OracleSQLStatementParser.Sql_scriptContext ctx) { return visitChildren(ctx); }
 	/**
 	 * {@inheritDoc}
 	 *

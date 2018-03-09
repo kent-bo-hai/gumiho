@@ -2,7 +2,7 @@ package com.kent.gumiho.sql.dialect.ppas.ast.statement.procedure;
 
 
 import com.kent.gumiho.sql.basic.DBType;
-import com.kent.gumiho.sql.basic.ast.statement.procedure.SQLCreateProcedureStatement;
+import com.kent.gumiho.sql.basic.ast.statement.ddl.procedure.SQLCreateProcedureStatement;
 import com.kent.gumiho.sql.dialect.ppas.ast.clause.SQLInvokerRights;
 import com.kent.gumiho.sql.dialect.ppas.ast.statement.PPASSQLCreateStatement;
 

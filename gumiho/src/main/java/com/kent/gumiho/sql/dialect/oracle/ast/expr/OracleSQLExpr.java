@@ -2,7 +2,7 @@
 package com.kent.gumiho.sql.dialect.oracle.ast.expr;
 
 
-import com.kent.gumiho.sql.basic.ast.SQLDataType;
+import com.kent.gumiho.sql.basic.ast.expr.datatype.SQLDataType;
 import com.kent.gumiho.sql.basic.ast.SQLObject;
 
 import java.util.List;

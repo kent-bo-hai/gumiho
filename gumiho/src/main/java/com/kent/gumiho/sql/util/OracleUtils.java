@@ -30,11 +30,11 @@ public final class OracleUtils {
         return null;
     }
 
-    public static TransformResult toEnterpriseDB(String sql) {
+    public static TransformResult toPPAS(String sql) {
         return null;
     }
 
-    public static TransformResult toEnterpriseDB(String sql, TransformConfig config) {
+    public static TransformResult toPPAS(String sql, TransformConfig config) {
         return null;
     }
 
